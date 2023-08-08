@@ -1,4 +1,4 @@
-const { Thought, User, Reaction } = require('./models/Thought.js');
+const { Thought, User, Reaction } = require('../models');
 const { Types } = require('mongoose');
 
 // GET all thoughts
